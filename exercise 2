@@ -1,0 +1,22 @@
+package com.company;
+import java.util.*;
+public class dstey {
+    public static void main(String [] args){
+        List<String> ll=new ArrayList<>();
+        ll.add("1");
+        ll.add("2");
+        ll.add("3");
+        ll.add("4");
+        System.out.println("list 1 " + ll);
+        List<String> l2=new ArrayList<>();
+        l2.add("A");
+        l2.add("B");
+        l2.add("C");
+        l2.add("D");
+       // l2.add("E");
+        System.out.println("list 2 " + l2);
+        Collections.copy(ll,l2);
+        System.out.println("list 1 " + ll);
+        System.out.println("list 2 " + l2);
+    }
+}
