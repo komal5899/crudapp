@@ -1,0 +1,15 @@
+package com.company;
+import java.util.*;
+public class tbsrt {
+    public static void main(String[] args){
+        LinkedList<String> l2=new LinkedList<>();
+        l2.add("White");
+        l2.add("green");
+        l2.add("gray");
+        l2.add("orange");
+        System.out.println("original list is " + l2);
+        l2.addFirst("BLACK");
+        l2.addLast("SKY BLUE");
+        System.out.println("final list is "+ l2);
+    }
+}
