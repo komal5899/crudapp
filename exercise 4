@@ -1,0 +1,17 @@
+package com.company;
+import java.util.*;
+public class ngyrjg {
+    public static void main(String[] args){
+        LinkedList<String> l3=new LinkedList<>();
+        l3.add("Red");
+        l3.add("pink");
+        l3.add("blue");
+        l3.add("white");
+        l3.add("yellow");
+        Iterator p=l3.listIterator(1);
+        while(p.hasNext()){
+            System.out.println(p.next());
+
+        }
+    }
+}
